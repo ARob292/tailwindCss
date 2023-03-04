@@ -1,0 +1,53 @@
+//- index.pug
+doctype html
+html
+  head
+    title Abdur Dance Academy
+    style
+      include ../static/style.css
+  body
+    
+    section#introSection 
+        div Abdur Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#ourMissionSection 
+        h2 Our Mission
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="/static/accet/11.png")
+            div.card-content
+              p This is the best Dance Academy of the universe
+        div.card
+          h3 Dance the way you like 
+          div.card-box
+            div.card-img
+              img(src="/static/accet/22.png")
+            div.card-content
+              p This is the best Dance Academy of the universe
+        div.card
+          h3 Exper Training
+          div.card-box
+            div.card-img
+              img(src="/static/accet/33.png")
+            div.card-content
+              p This is the best Dance Academy of the universe
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+          img(src="/static/accet/logo/1.png", class='spImage')
+          img(src="/static/accet/logo/R.jpg", class='spImage')
+          img(src="/static/accet/logo/3.png", class='spImage')
+          img(src="/static/accet/logo/4.png", class='spImage')
+
+    footer#footer 
+        | Copywrite © 2022 AbdurDanceAcademy.com |All rights reserved 
+
+
+
+
+    script
+      include ../static/script.js
